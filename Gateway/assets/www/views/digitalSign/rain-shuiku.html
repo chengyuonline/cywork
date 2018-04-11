@@ -1,0 +1,54 @@
+<ion-view id="rain" hide-nav-bar="true">
+    <ion-header-bar class="bar-positive" align-title="center">
+        <a href="#" class="button icon-left ion-ios-arrow-back" ng-click="goBack()"></a>
+        <a class="title" style="font-size:1em;">雨水情</a>
+    </ion-header-bar>
+    <ion-content>
+        <div class="outbox" style="display:flex;width:100%;">
+            <div style="overflow: hidden;white-space: nowrap;width:{{1.1*w}}px;">
+                <ion-scroll direction="x"  overflow-scroll="false" scrollbar-x="false" has-bouncing="false" delegate-handle="headContainerHandle" on-scroll="noScroll()" style="margin-top:0;">
+                    <div class="row tb_tr item-text-wrap item-content"  style="display:flex;width:680px;background:#d7eaf0;">
+                        <div class="tb_item tb_title">站点</div>
+                        <div class="tb_item tb_title">河名</div>
+                        <div class="tb_item tb_title">水位（米）</div>
+                        <div class="tb_item tb_title">汛期水位（米）</div>
+                        <div class="tb_item tb_title">蓄水量(米3/秒)</div>
+                        <div class="tb_item tb_title">时间</div>
+                        <div class="tb_item tb_title" style="border-right:0;">站址</div>
+                    </div>
+                </ion-scroll>
+            </div>
+        </div>
+        <div class="outbox" style="display:flex;width:100%;">
+            <div style="overflow: hidden;white-space: nowrap;width:{{1.1*w}}px;height:100%;">
+                <ion-scroll direction="xy" scrollbar-x="false" scrollbar-y="false"  has-bouncing="false" on-scroll="scrollRightHorizon()" delegate-handle="rightContainerHandle" style="height:{{h}}px;">
+                    <div style="width:680px;">
+                        <div class="row tb_tr item-text-wrap item-content"  ng-repeat="data in river"  style="display:flex;">
+                            <div class="tb_item tb_body">
+                                {{data.stnm}}
+                            </div>
+                            <div class="tb_item tb_body">
+                                {{data.rvnm}}
+                            </div>
+                            <div class="tb_item tb_body">
+                                {{data.rz}}
+                            </div>
+                            <div class="tb_item tb_body">
+                                {{data.fsltdz}}
+                            </div>
+                            <div class="tb_item tb_body">
+                                {{data.wl}}
+                            </div>
+                            <div class="tb_item tb_body" style="border-right:0;">
+                                {{data.tm}}
+                            </div>
+                            <div class="tb_item tb_body" style="border-right:0;">
+                                {{data.webstlc}}
+                            </div>
+                        </div>
+                    </div>
+                </ion-scroll>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

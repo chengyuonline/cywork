@@ -1,0 +1,81 @@
+<ion-view id="bInfo_countryWater" hide-nav-bar="true">
+    <ion-header-bar class="bar-positive" align-title="center">
+        <a href="#" class="button icon-left ion-ios-arrow-back" ng-click="goBack()"></a>
+        <a class="title" style="font-size:1em;">农村水利</a>
+    </ion-header-bar>
+    <ion-content>
+        <div style="display:flex;width:600px;">
+            <div style="overflow: hidden;white-space: nowrap;width:450px;">
+                <ion-scroll direction="x"  overflow-scroll="false" scrollbar-x="false" has-bouncing="false" delegate-handle="headContainerHandle" on-scroll="noScroll()" style="margin-top:0;">
+                    <div class="row tb_tr item-text-wrap item-content"  style="display:flex;width:1100px;background:#d7eaf0;">
+                        <div class="tb_item tb_title">地块名称</div>
+                        <div class="tb_item tb_title">县（市、区、旗）</div>
+                        <div class="tb_item tb_title">地（区、市、州、盟）</div>
+                        <div class="tb_item tb_title">省（自治区、直辖市）</div>
+                        <div class="tb_item tb_title">水源工程类型</div>
+                        <div class="row-wrap tb_item tb_title" style="width:320px;white-space: normal;margin:0;">
+                            <div class="col-top" style="display: block;width:100%;text-align: center">填报面积</div>
+                            <div class="row col-bottom" style="width:100%;padding:0!important;">
+                                <div class="" style="display: inline-block;width:25%;text-align: center">合计</div>
+                                <div class="" style="display: inline-block;width:25%;text-align: center">喷灌</div>
+                                <div class="" style="display: inline-block;width:25%;text-align: center">微灌</div>
+                                <div class="" style="display: inline-block;width:25%;text-align: center">管溉</div>
+                            </div>
+
+                        </div>
+                        <div class="tb_item tb_title">计算面积(亩)</div>
+                        <div class="tb_item tb_title">作物种类</div>
+                        <div class="tb_item tb_title" style="border-right:0;">管护主体</div>
+                    </div>
+                </ion-scroll>
+            </div>
+        </div>
+        <div style="display:flex;width:600px;">
+            <div style="overflow: hidden;white-space: nowrap;width:450px;height:100%;">
+                <ion-scroll direction="xy" scrollbar-x="false" scrollbar-y="false"  has-bouncing="false" on-scroll="scrollRightHorizon()" delegate-handle="rightContainerHandle" style="height:{{h}}px;">
+                    <div style="width:1100px;">
+                        <div class="row tb_tr item-text-wrap item-content" ng-repeat="data in river"
+                             style="display:flex;margin-top:0">
+                            <div class="tb_item tb_body">
+                                庆阳湖乡西庆村节水工程
+                            </div>
+                            <div class="tb_item tb_body">
+                                吉木萨尔县
+                            </div>
+                            <div class="tb_item tb_body">
+                                昌吉回族自治州
+                            </div>
+                            <div class="tb_item tb_body">
+                                新疆维吾尔自治区
+                            </div>
+                            <div class="tb_item tb_body">
+                                机井
+                            </div>
+                            <div class="tb_item tb_body">
+                                236.0
+                            </div>
+                            <div class="tb_item tb_body">
+                                0.0
+                            </div>
+                            <div class="tb_item tb_body" >
+                                236.0
+                            </div>
+                            <div class="tb_item tb_body">
+                                0.0
+                            </div>
+                            <div class="tb_item tb_body">
+                                262.38
+                            </div>
+                            <div class="tb_item tb_body">
+                                经济作物
+                            </div>
+                            <div class="tb_item tb_body">
+                                农户+用水合作组织
+                            </div>
+                        </div>
+                    </div>
+                </ion-scroll>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

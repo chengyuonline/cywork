@@ -1,0 +1,207 @@
+/* Empty. Add your own CSS if you like */
+@media screen and (max-width:375px){
+	.oneImg {
+		width: 40px;
+		height: 40px;
+	}
+	.mainImg {
+		width: 72px;
+		height: 72px;
+	}
+	.fsize{
+		font-size: 1em;
+	}
+	.itemPt {
+		padding-top: 10px;
+        border-right: 1px solid #ddd;
+	}
+}
+
+@media screen and (min-width:375px) and (max-width:415px){
+	.oneImg {
+		width: 40px;
+		height: 40px;
+	}
+	.mainImg {
+		width: 98px;
+		height: 98px;
+	}
+	.fsize{
+		font-size: 1em;
+	}
+	.itemPt {
+		padding-top: 15px;
+        border-right: 1px solid #ddd;
+	}
+}
+@media screen and (min-width:415px) and (max-width:1960px){
+	.oneImg {
+		width: 85px;
+		height: 85px;
+	}
+	.mainImg {
+		width: 98px;
+		height: 98px;
+	}
+	.fsize{
+		font-size:1.6em;
+	}
+	.itemPt {
+		padding-top: 20px;
+        border-right: 1px solid #ddd;
+	}
+}
+.wrTextClass{
+	color: #ffffff !important;
+	background-color: #2AC9AA !important;
+}
+
+ion-slide{
+    text-align:center;
+}
+
+ion-slide img{
+    width: 100%;
+    height: 40vw;
+}
+
+.tb_title {
+    text-align: center;
+    font-size: 10px;
+    padding: 5px 5px 5px 5px;
+    background: #d7eaf0;
+}
+
+.tb_body {
+    text-align: center;
+    font-size: 10px;
+    padding: 5px 5px 5px 5px;
+}
+
+.om_title {
+    text-align: center;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tb_tr:nth-child(odd) {
+    background: #eeeeee;
+}
+
+/*resource*/
+#resource .tb-item {
+    align-content: center;
+    border: 1px solid #D1D3D6;
+    font-size: 0.9em;
+    background: #FFFFFF;
+    border-right: 0;
+}
+
+#resource .tb-item:last-child {
+    border-right: 1px solid #D1D3D6;
+}
+
+/*rain*/
+
+#rain .tb_item {
+    display: flex;
+    align-items: center;
+    width: 80px;
+    font-size: 10px;
+    color: #262626;
+    justify-content: center;
+}
+
+/*sourceMng*/
+#sourceMng .slide {
+    transition: all linear 0.2s;
+    height: 120px;
+}
+
+#sourceMng .ng-hide {
+    display: block !important;
+    height: 0;
+    padding: 0 !important;
+    border: 0px;
+}
+
+#sourceMng .ng-hide-add, #sourceMng .ng-hide-remove {
+    display: block;
+!important;
+}
+
+#sourceMng .sxAnimate {
+    animation: sxAnimate 1s infinite;
+    -webkit-animation: sxAnimate 1s infinite;
+    -moz-animation: sxAnimate 1s infinite;
+}
+
+@keyframes sxAnimate {
+    50% {
+        margin-left: 5px;
+    }
+    100% {
+        margin-left: 10px;
+    }
+}
+
+@-webkit-keyframes sxAnimate {
+    50% {
+        margin-left: 5px;
+    }
+    100% {
+        margin-left: 10px;
+    }
+}
+
+@-moz-keyframes sxAnimate {
+    50% {
+        margin-left: 5px;
+    }
+    100% {
+        margin-left: 10px;
+    }
+}
+
+/*bInfo_conMng*/
+#bInfo_conMng .om_title {
+    text-align: center;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#bInfo_conMng .col-15 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 15%;
+    -moz-box-flex: 0;
+    -moz-flex: 0 0 15%;
+    -ms-flex: 0 0 15%;
+    flex: 0 15%;
+    max-width: 15%;
+}
+
+#bInfo_conMng .list .item:nth-of-type(even) {
+    background: #eee;
+}
+
+/*bInfo_countryWater*/
+#bInfo_countryWater .tb_item {
+    display: flex;
+    align-items: center;
+    width: 80px;
+    font-size: 10px;
+    color: #262626;
+    justify-content: center;
+}
+
+.col-15 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 15%;
+    -moz-box-flex: 0;
+    -moz-flex: 0 0 15%;
+    -ms-flex: 0 0 15%;
+    flex: 0 15%;
+    max-width: 15%;
+}

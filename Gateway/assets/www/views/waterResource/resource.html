@@ -1,0 +1,80 @@
+<!--<style>-->
+    <!--.inset-select{-->
+        <!--border-radius: 4px;-->
+        <!--width: 30%;-->
+        <!--margin-right: 5px;-->
+        <!--height: 29px;-->
+        <!--border: 1px solid rgb(68, 150, 221);-->
+    <!--}-->
+    <!--.tb-item{-->
+        <!--align-content: center;-->
+        <!--border:1px solid #D1D3D6;-->
+        <!--font-size: 0.9em;-->
+        <!--background: #FFFFFF;-->
+        <!--border-right:0;-->
+    <!--}-->
+    <!--.tb-item:last-child{-->
+        <!--border-right:1px solid #D1D3D6;-->
+    <!--}-->
+    <!--.tb_title {-->
+        <!--text-align: center;-->
+        <!--font-size: 10px;-->
+        <!--padding:5px 5px 5px 5px;-->
+        <!--background:#d7eaf0;-->
+    <!--}-->
+    <!--.tb_body{-->
+        <!--text-align:center;-->
+        <!--font-size:10px;-->
+        <!--padding:5px 5px 5px 5px;-->
+    <!--}-->
+
+<!--</style>-->
+<ion-view hide-nav-bar="true">
+    <ion-header-bar class="bar-positive" align-title="center">
+        <a href="#" class="button icon-left ion-ios-arrow-back" ng-click="goBack()"></a>
+        <a  class="title" style="font-size: 1em;"><b>水资源管理</b></a>
+    </ion-header-bar>
+    <ion-content>
+        <div class="item item-input-inset" data-tap-disabled="true" style="background:#f8f8f8;">
+            <div class="" style="margin-right:10px;">选择年份</div>
+            <select class="inset-select" ng-model="params.RH_CD" ng-options="option.reachName for option in RH_CDList">
+                <option  value="" selected>2017</option>
+                <option  value="" >2016</option>
+                <option  value="" >2015</option>
+                <option  value="" >2014</option>
+                <option  value="" >2013</option>
+            </select>
+            <button class="button button-small button-assertive" ng-click="filterSearch()" style="margin:0 0 0 10px;padding:0 5px 0 5px">
+                查询
+            </button>
+        </div>
+        <div class="list">
+            <ion-scroll direction="x">
+                <div class="row item-text-wrap" style="display: flex;padding:0 0;align-items:center;white-space: nowrap">
+                    <div class="tb-item">
+                        <div class="tb_title">有效取水许可证书</div>
+                        <div class="tb_body">171052 张</div>
+                    </div>
+                    <div class="tb-item">
+                        <div class="tb_title">有效取水许可证书</div>
+                        <div class="tb_body">171052 张</div>
+                    </div>
+                    <div class="tb-item">
+                        <div class="tb_title">有效取水许可证书</div>
+                        <div class="tb_body">171052 张</div>
+                    </div>
+                    <div class="tb-item">
+                        <div class="tb_title">有效取水许可证书</div>
+                        <div class="tb_body">171052 张</div>
+                    </div>
+
+                </div>
+
+            </ion-scroll>
+        </div>
+        <div class="width:100%;height:100%;">
+            <highchart config="qushuiChart" style="height:300px;margin-bottom:20px;"></highchart>
+            <highchart config="qushuiYtChart" style="height:300px;margin-bottom:20px;"></highchart>
+        </div>
+    </ion-content>
+</ion-view>

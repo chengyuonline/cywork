@@ -1,0 +1,27 @@
+<ion-view hide-nav-bar="true">
+    <ion-header-bar class="bar-positive" align-title="center">
+        <a href="#" class="button icon-left ion-ios-arrow-back" ng-click="goBack()"></a>
+        <a class="title" style="font-size: 1em;">
+            表单上传
+        </a>
+    </ion-header-bar>
+    <ion-content>
+        <div class="list">
+            <div class="item item-input-inset">
+                <span>姓名：</span>
+                <input type="text" ng-model="params.name">
+            </div>
+            <div class="item item-input-inset">
+                <span>电话：</span>
+                <input type="text" ng-model="params.phone">
+            </div>
+            <div class="item item-input-inset">
+                <span>邮箱：</span>
+                <input type="text" ng-model="params.email">
+            </div>
+        </div>
+        <div class="item-input-inset">
+            <div class="button button-positive" style="width:100%;" ng-click="onSubmit()">提交</div>
+        </div>
+    </ion-content>
+</ion-view>

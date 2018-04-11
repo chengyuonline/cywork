@@ -1,0 +1,108 @@
+<ion-view id="sourceMng" hide-nav-bar="true">
+    <ion-header-bar class="bar-positive" align-title="center">
+        <a href="#" class="button icon-left ion-ios-arrow-back" ng-click="goBack()"></a>
+        <a class="title" style="font-size:1em;"><b>资源管理</b></a>
+    </ion-header-bar>
+    <ion-content delegate-handle="mainContent">
+
+        <!--<div class="list" style="overflow: hidden;width:800px;">-->
+            <ion-scroll id="xSList" direction="x" scrollbar-x="false" style="background:#eee;">
+                <div class="row item-text-wrap" style="width:1000px;overflow: hidden;">
+                    <div class="card list" style="width:200%;height:250px;">
+                        <div class="item item-divider" style="width:100%;height:50px;">已发布({{appCount}})</div>
+                        <highchart config="appSource" style="min-width:200px;height:200px;"></highchart>
+                    </div>
+                    <div class="card list" style="width:200%;height:250px;">
+                        <div class="item item-divider" style="width:100%;height:50px;">已发布({{srvCount}})</div>
+                        <highchart config="srvSource" style="min-width:200px;height:200px;"></highchart>
+                    </div>
+                    <div class="card list" style="width:200%;height:250px;">
+                        <div class="item item-divider" style="width:100%;height:50px;">已发布({{dataCount}})</div>
+                        <highchart config="dataSource" style="min-width:200px;height:200px;"></highchart>
+                    </div>
+                    <div class="card list" style="width:200%;height:250px;">
+                        <div class="item item-divider" style="width:100%;height:50px;">已发布({{hardCount}})</div>
+                        <highchart config="hardSource" style="min-width:200px;height:200px;"></highchart>
+                    </div>
+                </div>
+                <div class="" style="position: absolute;left:20px;bottom:10px;font-size:10px;color:#797474">此处滑动 <span class="sxAnimate">--></span></div>
+            </ion-scroll>
+        <!--</div>-->
+
+
+
+        <div class="list">
+            <div class="item item-divider">监控</div>
+            <highchart config="serveAmount" style="min-width: 250px;height:400px;"></highchart>
+            <!--<div class="item item">end</div>-->
+        </div>
+        <div class="list">
+            <div class="item item-divider">统计</div>
+            <div class="item" style="padding:5px;">
+                <div class="item item-divider">
+                    <a href="javascript:;" ng-click="slide1=!slide1" style="color:#000;text-decoration: none;"><i ng-class="slide1 ? 'ion-plus' : 'ion-minus'">&nbsp</i>提供服务部门TOP</a>
+                </div>
+                <div class="item slide" ng-hide="slide1" style="padding:5px 0 0 0">
+                    <div class="list" style="width:100%;height:100%;">
+                        <div class="row item-text-wrap" style="display: flex;align-items:center;padding: 0px;margin: 0px;background: #d7eaf0;border-top: 2px solid #69a4d3">
+                            <div class="col-25 om_title">序号</div>
+                            <div class="col-50 om_title">单位名称</div>
+                            <div class="col-25 om_title">提供数</div>
+                        </div>
+                        <ion-scroll style="height: 100%;">
+                            <div class="item row item-text-wrap item-content" ng-repeat="item in resProvideOrgTop"  style="display: flex;align-items:center;padding: 0px;font-size: 12px">
+                                <div class="col-25 om_title">{{item.rOWNUM}}</div>
+                                <div class="col-50 om_title">{{item.oRG_NAME}}</div>
+                                <div class="col-25 om_title">{{item.cOUNTS}}</div>
+                            </div>
+                            <!--<div class="item row item-text-wrap item-content"   style="display: flex;align-items:center;padding: 0px;font-size: 12px">-->
+                                <!--<div class="col-25 om_title">1</div>-->
+                                <!--<div class="col-50 om_title">水利部水利信息中心</div>-->
+                                <!--<div class="col-25 om_title">333</div>-->
+                            <!--</div>-->
+                            <!--<div class="item row item-text-wrap item-content"   style="display: flex;align-items:center;padding: 0px;font-size: 12px">-->
+                                <!--<div class="col-25 om_title">1</div>-->
+                                <!--<div class="col-50 om_title">水利部水利信息中心</div>-->
+                                <!--<div class="col-25 om_title">333</div>-->
+                            <!--</div>-->
+                        </ion-scroll>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="padding:5px;">
+                <div class="item item-divider" ng-click="slide2=!slide2">
+                    <a href="javascript:;" style="color:#000;text-decoration: none"><i ng-class="slide2 ? 'ion-plus' : 'ion-minus'">&nbsp</i>服务资源使用TOP</a>
+                </div>
+                <div class="item slide" ng-hide="slide2" style="padding:5px 0 0 0">
+                    <div class="list" style="width:100%;height:100%;">
+                        <div class="row item-text-wrap" style="display: flex;align-items:center;padding: 0px;margin: 0px;background: #d7eaf0;border-top: 2px solid #69a4d3">
+                            <div class="col-15 om_title">序号</div>
+                            <div class="col-20 om_title">服务ID</div>
+                            <div class="col-50 om_title">服务名称</div>
+                            <div class="col-15 om_title">请求数</div>
+                        </div>
+                        <ion-scroll style="height: 100%;">
+                            <div class="item row item-text-wrap item-content" ng-repeat="item in srvUseTop" style="display: flex;align-items:center;padding: 0px;font-size: 12px">
+                                <div class="col-15 om_title">{{item.rOWNUM}}</div>
+                                <div class="col-20 om_title">{{item.sRV_GUID}}</div>
+                                <div class="col-50 om_title">{{item.sRV_NAME}}</div>
+                                <div class="col-15 om_title">{{item.cOUNTS}}</div>
+                            </div>
+                            <!--<div class="item row item-text-wrap item-content" style="display: flex;align-items:center;padding: 0px;font-size: 12px">-->
+                                <!--<div class="col-25 om_title">1</div>-->
+                                <!--<div class="col-50 om_title">水利部水利信息中心</div>-->
+                                <!--<div class="col-25 om_title">333</div>-->
+                            <!--</div>-->
+                            <!--<div class="item row item-text-wrap item-content" style="display: flex;align-items:center;padding: 0px;font-size: 12px">-->
+                                <!--<div class="col-25 om_title">1</div>-->
+                                <!--<div class="col-50 om_title">水利部水利信息中心</div>-->
+                                <!--<div class="col-25 om_title">333</div>-->
+                            <!--</div>-->
+                        </ion-scroll>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </ion-content>
+</ion-view>

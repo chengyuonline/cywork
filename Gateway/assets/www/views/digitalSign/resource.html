@@ -1,0 +1,48 @@
+<ion-view id="resource" hide-nav-bar="true">
+    <ion-header-bar class="bar-positive" align-title="center">
+        <a href="#" class="button icon-left ion-ios-arrow-back" ng-click="goBack()"></a>
+        <a  class="title" style="font-size: 1em;"><b>水资源管理</b></a>
+    </ion-header-bar>
+    <ion-content delegate-handle="mainContent">
+        <div class="item item-input-inset" data-tap-disabled="true" style="background:#f8f8f8;">
+            <div class="" style="margin-right:10px;">选择年份</div>
+            <select class="inset-select" ng-model="params.year" ng-options="option.year for option in yearOption"
+                    style="border-radius:4px;height:29px;border: 1px solid rgb(68, 150, 221);">
+                <option value="">--请选择--</option>
+            </select>
+            <button class="button button-small button-assertive" ng-click="filterSearch()" style="margin:0 0 0 10px;padding:0 5px 0 5px">
+                查询
+            </button>
+        </div>
+        <div class="list">
+            <ion-scroll direction="x">
+                <div class="row item-text-wrap" style="display: flex;padding:0 0;align-items:center;white-space: nowrap">
+                    <div class="tb-item" >
+                        <div class="tb_title">有效取水许可证书</div>
+                        <div class="tb_body">{{crd.CN}} 张</div>
+                    </div>
+                    <div class="tb-item">
+                        <div class="tb_title">取水许可证总水量</div>
+                        <div class="tb_body">{{licenseItem[0]}}亿m³</div>
+                    </div>
+                    <div class="tb-item">
+                        <div class="tb_title">监测许可总水量</div>
+                        <div class="tb_body">{{licenseItem[1]}}亿m³</div>
+                    </div>
+                    <div class="tb-item">
+                        <div class="tb_title">实际监测水量</div>
+                        <div class="tb_body">{{licenseItem[2]}} 亿m³</div>
+                    </div>
+                </div>
+            </ion-scroll>
+        </div>
+        <div class="width:100%;height:100%;">
+            <highchart config="qushuiChart" style="height:300px;"></highchart>
+            <!--<div class="button" ng-click="nextChart()"-->
+                 <!--style="width:100%;height:30px;background:#f8f8f8;font-size:14px;border-radius:0;color:#1ba042">-->
+                <!--{{buttonText}}-->
+            <!--</div>-->
+            <highchart config="qushuiYtChart" style="height:300px;"></highchart>
+        </div>
+    </ion-content>
+</ion-view>
