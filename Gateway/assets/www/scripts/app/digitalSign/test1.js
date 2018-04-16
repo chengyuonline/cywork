@@ -1,6 +1,6 @@
 define(['app'], function(app) {
     'use strict';
-    app.controller('test1Ctrl',function($scope,$state,$http){
+    app.controller('test1Ctrl',function($scope,$state,$http,$ionicActionSheet){
         $scope.goBack = function(){
             $state.go('main')
         }
@@ -9,7 +9,12 @@ define(['app'], function(app) {
             phone:'',
             email:''
         }
-        
+        // 添加图片
+        $scope.addPhoto = function() {
+            $ionicActionSheet.show({
+
+            })
+        }
         $scope.onSubmit = function(){
             console.log($scope.params.name);
             console.log($scope.params.phone);

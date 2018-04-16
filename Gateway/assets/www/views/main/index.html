@@ -1,25 +1,25 @@
 <ion-view hide-nav-bar="true">
-    <ion-slide-box auto-play="true" does-continue="true" slide-interval="3000" show-pager="false">
-        <ion-slide>
-            <img src="img/main/1.jpg"/>
-        </ion-slide>
-        <ion-slide>
-            <img src="img/main/2.jpg"/>
-        </ion-slide>
-        <ion-slide on-slide-changed="slideHasChanged(index)">
-            <img src="img/main/3.jpg"/>
-        </ion-slide>
-        <ion-slide on-slide-changed="slideHasChanged(index)">
-            <img src="img/main/4.jpg"/>
-        </ion-slide>
-        <ion-slide on-slide-changed="slideHasChanged(index)">
-            <img src="img/main/5.jpg"/>
-        </ion-slide>
-        <ion-slide on-slide-changed="slideHasChanged(index)">
-            <img src="img/main/6.jpg"/>
-        </ion-slide>
-    </ion-slide-box>
-    <ion-content overflow-scroll="false" style="background: #f5f5f5;top:40vw;">
+    <!--<ion-slide-box auto-play="true" does-continue="true" slide-interval="3000" show-pager="false">-->
+        <!--<ion-slide>-->
+            <!--<img src="img/main/1.jpg"/>-->
+        <!--</ion-slide>-->
+        <!--<ion-slide>-->
+            <!--<img src="img/main/2.jpg"/>-->
+        <!--</ion-slide>-->
+        <!--<ion-slide on-slide-changed="slideHasChanged(index)">-->
+            <!--<img src="img/main/3.jpg"/>-->
+        <!--</ion-slide>-->
+        <!--<ion-slide on-slide-changed="slideHasChanged(index)">-->
+            <!--<img src="img/main/4.jpg"/>-->
+        <!--</ion-slide>-->
+        <!--<ion-slide on-slide-changed="slideHasChanged(index)">-->
+            <!--<img src="img/main/5.jpg"/>-->
+        <!--</ion-slide>-->
+        <!--<ion-slide on-slide-changed="slideHasChanged(index)">-->
+            <!--<img src="img/main/6.jpg"/>-->
+        <!--</ion-slide>-->
+    <!--</ion-slide-box>-->
+    <ion-content overflow-scroll="false" style="background: #f5f5f5;">
         <ion-list>
             <div class="item item-divider" style="color: #000000;margin-top:-2px">
 				数字看版
@@ -36,95 +36,95 @@
                  style="text-align:center;border-bottom:1px solid #ddd;">
                 <img src="img/main/gateway_07.png" class="oneImg "/>
 				<!--<i class="icon iconfont  icon-circle bg2 icon-2" style="font-size: 5em;" ></i>-->
-                <p class="fsize">水资源管理</p>
+                <p class="fsize">测试二</p>
 
 			</div>
             <div class="col-25 main_item itemPt" ng-click="changePage(2)"
                  style="text-align:center;border-bottom:1px solid #ddd;">
                 <img src="img/main/gateway_09.png" class="oneImg"/>
 				<!--<i class="icon iconfont  icon-circle bg3 icon-3" style="font-size: 5em;" ></i>-->
-                <p class="fsize">建设管理</p>
+                <p class="fsize">测试三</p>
 			</div>
             <div class="col-25 main_item itemPt" ng-click="changePage(3)"
                  style="text-align:center;border-bottom:1px solid #ddd;border-right:0;">
                 <img src="img/main/gateway_11.png" class="oneImg"/>
 				<!--<i class="icon iconfont  icon-circle bg3 icon-3" style="font-size: 5em;" ></i>-->
-                <p class="fsize">农村水利</p>
+                <p class="fsize">测试四</p>
 			</div>
 		</div>
-        <div class="row" style="padding:0;background:#fff;margin:0;">
-			<!--<div class="col-33" ng-click="changepage(4)" style="text-align:center;margin-top: 1em;;">-->
-			<!--<i class="icon iconfont  icon-circle bg4 icon-4" style="font-size: 5em;" ></i>-->
-            <!--<h4>水质查询</h4>-->
+        <!--<div class="row" style="padding:0;background:#fff;margin:0;">-->
+			<!--&lt;!&ndash;<div class="col-33" ng-click="changepage(4)" style="text-align:center;margin-top: 1em;;">&ndash;&gt;-->
+			<!--&lt;!&ndash;<i class="icon iconfont  icon-circle bg4 icon-4" style="font-size: 5em;" ></i>&ndash;&gt;-->
+            <!--&lt;!&ndash;<h4>水质查询</h4>&ndash;&gt;-->
+			<!--&lt;!&ndash;</div>&ndash;&gt;-->
+            <!--<div class="col-25 main_item itemPt" ng-click="changePage(4)" style="text-align:center;">-->
+                <!--<img src="img/main/gateway_17.png" class="oneImg"/>-->
+				<!--&lt;!&ndash;<i class="icon iconfont  icon-circle bg5 icon-5" style="font-size: 5em;" ></i>&ndash;&gt;-->
+                <!--<p class="fsize">地下水监测</p>-->
 			<!--</div>-->
-            <div class="col-25 main_item itemPt" ng-click="changePage(4)" style="text-align:center;">
-                <img src="img/main/gateway_17.png" class="oneImg"/>
-				<!--<i class="icon iconfont  icon-circle bg5 icon-5" style="font-size: 5em;" ></i>-->
-                <p class="fsize">地下水监测</p>
-			</div>
 
-            <div class="col-25 main_item itemPt" ng-click="changePage(0)" style="text-align:center;">
-                <img src="img/main/gateway_18.png" class="oneImg"/>
-				<!--<i class="icon iconfont  icon-circle bg3 icon-3" style="font-size: 5em;" ></i>-->
-                <p class="fsize">安全监管</p>
-			</div>
-            <div class="col-25 main_item itemPt" ng-click="changePage(0)" style="text-align:center;">
-                <img src="img/main/gateway_19.png" class="oneImg"/>
-				<!--<i class="icon iconfont  icon-circle bg4 icon-4" style="font-size: 5em;" ></i>-->
-                <p class="fsize">行政审批</p>
-			</div>
-            <div class="col-25 main_item itemPt" ng-click="changePage(7)" style="text-align:center;border:0;">
-                <img src="img/main/gateway_20.png" class="oneImg"/>
-				<!--<i class="icon iconfont  icon-circle bg4 icon-4" style="font-size: 5em;" ></i>-->
-                <p class="fsize">雨水情</p>
-			</div>
-		</div>
+            <!--<div class="col-25 main_item itemPt" ng-click="changePage(0)" style="text-align:center;">-->
+                <!--<img src="img/main/gateway_18.png" class="oneImg"/>-->
+				<!--&lt;!&ndash;<i class="icon iconfont  icon-circle bg3 icon-3" style="font-size: 5em;" ></i>&ndash;&gt;-->
+                <!--<p class="fsize">安全监管</p>-->
+			<!--</div>-->
+            <!--<div class="col-25 main_item itemPt" ng-click="changePage(0)" style="text-align:center;">-->
+                <!--<img src="img/main/gateway_19.png" class="oneImg"/>-->
+				<!--&lt;!&ndash;<i class="icon iconfont  icon-circle bg4 icon-4" style="font-size: 5em;" ></i>&ndash;&gt;-->
+                <!--<p class="fsize">行政审批</p>-->
+			<!--</div>-->
+            <!--<div class="col-25 main_item itemPt" ng-click="changePage(7)" style="text-align:center;border:0;">-->
+                <!--<img src="img/main/gateway_20.png" class="oneImg"/>-->
+				<!--&lt;!&ndash;<i class="icon iconfont  icon-circle bg4 icon-4" style="font-size: 5em;" ></i>&ndash;&gt;-->
+                <!--<p class="fsize">雨水情</p>-->
+			<!--</div>-->
+		<!--</div>-->
 		<ion-list>
             <div class="item item-divider" style="">
 				资源服务
 			</div>
 		</ion-list>
-        <div class="row" style="padding:0;background:#fff">
-            <div class="col-25 main_item itemPt" ng-click="changePage(8)" style="text-align:center;">
-                <img src="img/main/gateway_25.png" class="oneImg"/>
-				<!--<i class="icon iconfont  icon-circle bg4 icon-4" style="font-size: 5em;" ></i>-->
-                <p class="fsize">资源管理</p>
-			</div>
-            <div class="col-25 main_item itemPt" ng-click="changePage(9)" style="text-align:center;">
-                <img src="img/main/gateway_26.png" class="oneImg"/>
-				<!--<i class="icon iconfont  icon-circle bg4 icon-4" style="font-size: 5em;" ></i>-->
-                <p class="fsize">模型管理</p>
-			</div>
-            <div class="col-25 main_item itemPt" ng-click="changePage(10)" style="text-align:center;">
-                <img src="img/main/gateway_27.png" class="oneImg"/>
-				<!--<i class="icon iconfont  icon-circle bg4 icon-4" style="font-size: 5em;" ></i>-->
-                <p class="fsize">目录管理</p>
-			</div>
-		</div>
+        <!--<div class="row" style="padding:0;background:#fff">-->
+            <!--<div class="col-25 main_item itemPt" ng-click="changePage(8)" style="text-align:center;">-->
+                <!--<img src="img/main/gateway_25.png" class="oneImg"/>-->
+				<!--&lt;!&ndash;<i class="icon iconfont  icon-circle bg4 icon-4" style="font-size: 5em;" ></i>&ndash;&gt;-->
+                <!--<p class="fsize">资源管理</p>-->
+			<!--</div>-->
+            <!--<div class="col-25 main_item itemPt" ng-click="changePage(9)" style="text-align:center;">-->
+                <!--<img src="img/main/gateway_26.png" class="oneImg"/>-->
+				<!--&lt;!&ndash;<i class="icon iconfont  icon-circle bg4 icon-4" style="font-size: 5em;" ></i>&ndash;&gt;-->
+                <!--<p class="fsize">模型管理</p>-->
+			<!--</div>-->
+            <!--<div class="col-25 main_item itemPt" ng-click="changePage(10)" style="text-align:center;">-->
+                <!--<img src="img/main/gateway_27.png" class="oneImg"/>-->
+				<!--&lt;!&ndash;<i class="icon iconfont  icon-circle bg4 icon-4" style="font-size: 5em;" ></i>&ndash;&gt;-->
+                <!--<p class="fsize">目录管理</p>-->
+			<!--</div>-->
+		<!--</div>-->
 		<ion-list>
             <div class="item item-divider" style="">
 				基础信息
 			</div>
 		</ion-list>
-        <div class="row" style="padding:0;background:#fff">
-            <div class="col-25 main_item itemPt" ng-click="changePage(11)"
-                 style="text-align:center;border-bottom:1px solid #ddd;">
-                <img src="img/main/gateway_31.png" class="oneImg"/>
-				<!--<i class="icon iconfont  icon-circle bg4 icon-4" style="font-size: 5em;" ></i>-->
-                <p class="fsize">基础信息</p>
-			</div>
-            <!--<div class="col-25 main_item itemPt" ng-click="changePage(12)"-->
+        <!--<div class="row" style="padding:0;background:#fff">-->
+            <!--<div class="col-25 main_item itemPt" ng-click="changePage(11)"-->
                  <!--style="text-align:center;border-bottom:1px solid #ddd;">-->
-                <!--<img src="img/main/gateway_32.png" class="oneImg"/>-->
+                <!--<img src="img/main/gateway_31.png" class="oneImg"/>-->
 				<!--&lt;!&ndash;<i class="icon iconfont  icon-circle bg4 icon-4" style="font-size: 5em;" ></i>&ndash;&gt;-->
-                <!--<p class="fsize">农村水利</p>-->
+                <!--<p class="fsize">基础信息</p>-->
 			<!--</div>-->
-            <!--<div class="col-25 main_item itemPt" ng-click="changePage(13)"-->
-                 <!--style="text-align:center;border-bottom:1px solid #ddd;">-->
-                <!--<img src="img/main/gateway_33.png" class="oneImg"/>-->
-				<!--&lt;!&ndash;<i class="icon iconfont  icon-circle bg4 icon-4" style="font-size: 5em;" ></i>&ndash;&gt;-->
-                <!--<p class="fsize">地下水监测</p>-->
-			<!--</div>-->
-		</div>
+            <!--&lt;!&ndash;<div class="col-25 main_item itemPt" ng-click="changePage(12)"&ndash;&gt;-->
+                 <!--&lt;!&ndash;style="text-align:center;border-bottom:1px solid #ddd;">&ndash;&gt;-->
+                <!--&lt;!&ndash;<img src="img/main/gateway_32.png" class="oneImg"/>&ndash;&gt;-->
+				<!--&lt;!&ndash;&lt;!&ndash;<i class="icon iconfont  icon-circle bg4 icon-4" style="font-size: 5em;" ></i>&ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;<p class="fsize">农村水利</p>&ndash;&gt;-->
+			<!--&lt;!&ndash;</div>&ndash;&gt;-->
+            <!--&lt;!&ndash;<div class="col-25 main_item itemPt" ng-click="changePage(13)"&ndash;&gt;-->
+                 <!--&lt;!&ndash;style="text-align:center;border-bottom:1px solid #ddd;">&ndash;&gt;-->
+                <!--&lt;!&ndash;<img src="img/main/gateway_33.png" class="oneImg"/>&ndash;&gt;-->
+				<!--&lt;!&ndash;&lt;!&ndash;<i class="icon iconfont  icon-circle bg4 icon-4" style="font-size: 5em;" ></i>&ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;<p class="fsize">地下水监测</p>&ndash;&gt;-->
+			<!--&lt;!&ndash;</div>&ndash;&gt;-->
+		<!--</div>-->
 	</ion-content>
 </ion-view>	

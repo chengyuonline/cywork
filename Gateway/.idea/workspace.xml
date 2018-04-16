@@ -4,11 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/assets/www/scripts/app/digitalSign/underWater.js" line="72" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9eb0ef62-2ee3-438c-8886-863473b6d802" name="默认的" comment="默认的">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/www/views/main/index.html" afterPath="$PROJECT_DIR$/assets/www/views/main/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/www/views/sourceService/sourceMng.html" afterPath="$PROJECT_DIR$/assets/www/views/sourceService/sourceMng.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-    </list>
+    <list default="true" id="9eb0ef62-2ee3-438c-8886-863473b6d802" name="默认的" comment="默认的" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -39,21 +35,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="constructMng.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="constructMng.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/www/scripts/app/digitalSign/constructMng.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="463">
+              <caret line="157" column="15" lean-forward="false" selection-start-line="157" selection-start-column="15" selection-end-line="157" selection-end-column="15" />
+              <folding>
+                <element signature="e#1404#3652#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bInfo_countryWater.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/www/scripts/app/basicInfo/bInfo_countryWater.js">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/www/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="336">
+              <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -72,18 +70,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modelMng.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/www/scripts/app/sourceService/modelMng.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="251" column="28" lean-forward="false" selection-start-line="251" selection-start-column="28" selection-end-line="251" selection-end-column="28" />
+            <state relative-caret-position="196">
+              <caret line="13" column="84" lean-forward="false" selection-start-line="13" selection-start-column="84" selection-end-line="13" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -92,9 +80,22 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/views/main/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-756">
-              <caret line="68" column="40" lean-forward="false" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
-              <folding />
+            <state relative-caret-position="420">
+              <caret line="80" column="21" lean-forward="false" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+                <marker date="1523868763057" expanded="false" signature="2708:2743" ph="..." />
+                <marker date="1523868763057" expanded="false" signature="3165:3183" ph="..." />
+                <marker date="1523868763057" expanded="false" signature="3530:3548" ph="..." />
+                <marker date="1523868763057" expanded="false" signature="3893:3911" ph="..." />
+                <marker date="1523868763057" expanded="false" signature="4256:4283" ph="..." />
+                <marker date="1523868763057" expanded="false" signature="4693:4718" ph="..." />
+                <marker date="1523868763057" expanded="false" signature="4809:4827" ph="..." />
+                <marker date="1523868763057" expanded="false" signature="5172:5190" ph="..." />
+                <marker date="1523868763057" expanded="false" signature="5536:5554" ph="..." />
+                <marker date="1523868763057" expanded="false" signature="5965:5990" ph="..." />
+                <marker date="1523868763057" expanded="false" signature="6106:6153" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,7 +103,7 @@
       <file leaf-file-name="sourceMng.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/views/sourceService/sourceMng.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
+            <state relative-caret-position="952">
               <caret line="34" column="44" lean-forward="false" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
               <folding />
             </state>
@@ -112,7 +113,7 @@
       <file leaf-file-name="catalogMng.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/scripts/app/sourceService/catalogMng.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
+            <state relative-caret-position="12992">
               <caret line="464" column="32" lean-forward="false" selection-start-line="464" selection-start-column="26" selection-end-line="464" selection-end-column="32" />
               <folding />
             </state>
@@ -123,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/assets/www/views/sourceService/catalogMng.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
               </folding>
@@ -2037,9 +2038,7 @@
         <option value="$PROJECT_DIR$/assets/www/views/digitalSign/underWater.html" />
         <option value="$PROJECT_DIR$/assets/www/views/waterResource/resource.html" />
         <option value="$PROJECT_DIR$/assets/www/views/digitalSign/rain.html" />
-        <option value="$PROJECT_DIR$/assets/www/scripts/app/digitalSign/constructMng.js" />
         <option value="$PROJECT_DIR$/assets/www/scripts/common.js" />
-        <option value="$PROJECT_DIR$/assets/www/scripts/main.js" />
         <option value="$PROJECT_DIR$/assets/www/views/sourceService/modelMng.html" />
         <option value="$PROJECT_DIR$/assets/www/scripts/app/digitalSign/underWater.js" />
         <option value="$PROJECT_DIR$/assets/www/index.html" />
@@ -2064,8 +2063,10 @@
         <option value="$PROJECT_DIR$/assets/www/scripts/app/sourceService/catalogMng.js" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/assets/www/views/sourceService/sourceMng.html" />
-        <option value="$PROJECT_DIR$/assets/www/views/main/index.html" />
         <option value="$PROJECT_DIR$/assets/www/views/digitalSign/resource.html" />
+        <option value="$PROJECT_DIR$/assets/www/views/main/index.html" />
+        <option value="$PROJECT_DIR$/assets/www/scripts/main.js" />
+        <option value="$PROJECT_DIR$/assets/www/scripts/app/digitalSign/constructMng.js" />
       </list>
     </option>
   </component>
@@ -2083,6 +2084,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/assets/www/node_modules" />
     <handled-path value="$PROJECT_DIR$/cordova/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
@@ -2125,6 +2127,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2163,7 +2166,7 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Gateway" type="b2602c69:ProjectViewProjectNode" />
@@ -2171,53 +2174,8 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="basicInfo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="digitalSign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="noData" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="sourceService" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="waterResource" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="highcharts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Gateway" type="b2602c69:ProjectViewProjectNode" />
@@ -2225,51 +2183,18 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="digitalSign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="noData" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="sourceService" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/cywork/jilin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.HTML" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
@@ -2493,24 +2418,6 @@
     <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
     <supportedVersion>125</supportedVersion>
   </component>
-  <component name="SvnFileUrlMappingImpl">
-    <option name="myMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="E:\Gateway" />
-          <option name="myCopyRoot" value="E:\Gateway" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-    <option name="myMoreRealMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="E:\Gateway" />
-          <option name="myCopyRoot" value="E:\Gateway" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9eb0ef62-2ee3-438c-8886-863473b6d802" name="默认的" comment="" />
@@ -2570,6 +2477,7 @@
       <workItem from="1522395564346" duration="685000" />
       <workItem from="1522403545993" duration="603000" />
       <workItem from="1522633899694" duration="2237000" />
+      <workItem from="1523866997035" duration="4654000" />
     </task>
     <task id="LOCAL-00001">
       <created>1507515544596</created>
@@ -2596,7 +2504,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296684000" />
+    <option name="totallyTimeSpent" value="301338000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2614,7 +2522,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16456361" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961586" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2773,13 +2681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="25" column="64" lean-forward="false" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/views/digitalSign/rain.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -2903,13 +2804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1624">
-          <caret line="58" column="24" lean-forward="false" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/views/noData/noData.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -2942,7 +2836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="24" column="60" lean-forward="false" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2950,7 +2843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9884">
           <caret line="353" column="43" lean-forward="false" selection-start-line="353" selection-start-column="43" selection-end-line="353" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2958,7 +2850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1120">
           <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2978,14 +2869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/scripts/app/digitalSign/constructMng.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/scripts/app/digitalSign/countryWater.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4172">
@@ -2996,23 +2879,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/scripts/app/sourceService/catalogMng.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
+        <state relative-caret-position="12992">
           <caret line="464" column="32" lean-forward="false" selection-start-line="464" selection-start-column="26" selection-end-line="464" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/views/main/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-756">
-          <caret line="68" column="40" lean-forward="false" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/views/sourceService/sourceMng.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
+        <state relative-caret-position="952">
           <caret line="34" column="44" lean-forward="false" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
           <folding />
         </state>
@@ -3021,26 +2896,73 @@
     <entry file="file://$PROJECT_DIR$/assets/www/views/sourceService/catalogMng.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/www/views/main/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="420">
+          <caret line="80" column="21" lean-forward="false" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <marker date="1523868763057" expanded="false" signature="2708:2743" ph="..." />
+            <marker date="1523868763057" expanded="false" signature="3165:3183" ph="..." />
+            <marker date="1523868763057" expanded="false" signature="3530:3548" ph="..." />
+            <marker date="1523868763057" expanded="false" signature="3893:3911" ph="..." />
+            <marker date="1523868763057" expanded="false" signature="4256:4283" ph="..." />
+            <marker date="1523868763057" expanded="false" signature="4693:4718" ph="..." />
+            <marker date="1523868763057" expanded="false" signature="4809:4827" ph="..." />
+            <marker date="1523868763057" expanded="false" signature="5172:5190" ph="..." />
+            <marker date="1523868763057" expanded="false" signature="5536:5554" ph="..." />
+            <marker date="1523868763057" expanded="false" signature="5965:5990" ph="..." />
+            <marker date="1523868763057" expanded="false" signature="6106:6153" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/scripts/app/sourceService/modelMng.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="3144">
           <caret line="251" column="28" lean-forward="false" selection-start-line="251" selection-start-column="28" selection-end-line="251" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="13" column="84" lean-forward="false" selection-start-line="13" selection-start-column="84" selection-end-line="13" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="58" column="24" lean-forward="false" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/scripts/app/digitalSign/constructMng.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="157" column="15" lean-forward="false" selection-start-line="157" selection-start-column="15" selection-end-line="157" selection-end-column="15" />
+          <folding>
+            <element signature="e#1404#3652#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
